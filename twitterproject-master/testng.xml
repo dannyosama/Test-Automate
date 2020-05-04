@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Twitter" verbose="1" thread-count="1">
+    <!--When it want has <Class> on annotation SettingUp class-->
+    <test name="Twitter Test" preserve-order="true">
+        <classes>
+            <class name="TestCasses.TestLoginLogout" />
+        </classes>
+    </test>
+
+    <!--When it want has <Test> on annotation SettingUp class-->
+    <!--<test name="testcases.ProductRange Test" preserve-order="true">-->
+    <!--<classes>-->
+    <!--<class name="testcases.ProductRange" />-->
+    <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="AboutUs Test" preserve-order="true">-->
+    <!--<classes>-->
+    <!--<class name="testcases.Recipe" />-->
+    <!--</classes>-->
+    <!--</test>-->
+
+</suite>
